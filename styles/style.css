@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+main {
+	font-family: 'Montserrat', sans-serif;
+}
+
+body {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.5;
+	color: #000;
+}
+
+.header-nav {
+	font-size: 14px;
+	font-weight: bolder;
+	text-transform: uppercase;
+	background: #8c837b;
+	color: #fff;
+	fill: #fff;
+}
+
+header {
+	padding-top: 10px;
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+}
+
+.link {
+	text-decoration: none;
+	color: white;
+}
+
+.header-nav-block {
+	line-height: 3;
+	text-align: center;
+}
+
+.link-div {
+	line-height: 3;
+	text-align: center;
+}
+
+.link-div:hover {
+	background: white;
+	transition: background-color 0.5s, color 0.2s;
+	transform: scale(1.1);
+	border-radius: 5px;
+	color: black;
+}
+
+.link-div:hover a {
+	color: #3d7648;
+}
+
+.link-div {
+	color: green;
+}
+
+.logo {
+	font-family: inherit;
+	line-height: 1.1;
+}
+
+.content {
+	max-width: 1015px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+
+.logo-text {
+	word-wrap: break-word;
+}
+
+.logo-img {
+	max-width: 100px;
+}
+
+.logo-text-thin {
+	font-size: 13px;
+	color: #484340;
+	letter-spacing: .05em;
+	padding-bottom: 10px;
+}
+
+.logo-text-bold {
+	font-size: 20px;
+	font-weight: 600;
+	color: #484340;
+	letter-spacing: .05em;
+}
+
+.header-menu {
+	background: #3d7648;
+}
+
+.content {
+	text-align: justify;
+/*    text-align-last: center; */
+}
+
+.history {
+	padding: 40px 0;
+}
+
+.section-title {
+ 	font-size: 32px;
+  	text-align: center; 
+  	margin-bottom: 20px;
+}
+
+.section-content {
+  	font-size: 16px;
+  	line-height: 1.6;
+  	margin-bottom: 30px;
+}
+
+.section-content p {
+	border-left: 5px green solid;
+	padding-left: 20px;
+}
+
+.trainers {
+	padding: 40px 0;
+}
+
+.trainer-card {
+	padding: 20px;
+}
+
+.trainer-title {
+	background: #3d7648;
+	color: white;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+.trainer-image img {
+	border-radius: 10px;
+	border: 3px solid #5c1800;
+}
+
+footer {
+	background-color: #8c837b;
+	padding: 20px 0 40px;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+/**/
+
+.accordion {
+  --bs-accordion-active-bg: #3d7648;
+  --bs-accordion-active-color: white;
+  --bs-accordion-btn-focus-box-shadow: gray;
+}
+
+.card {
+	margin: 20px;
+}
+
+.prices-ul a {
+	text-decoration: none;
+	color: white;
+	font-weight: bolder;
+	padding: 10px;
+}
